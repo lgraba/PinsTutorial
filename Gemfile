@@ -30,6 +30,8 @@ gem 'haml', '~> 4.0.6'
 gem 'bootstrap-sass', '~> 3.3.3'
 # Simple_Form https://rubygems.org/gems/simple_form
 gem 'simple_form', '~> 3.1.0'
+# Devise https://rubygems.org/gems/devise
+gem 'devise', '~> 3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
