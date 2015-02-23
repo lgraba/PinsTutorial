@@ -41,5 +41,8 @@ Rails.application.configure do
 
   # Needed for Devise
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # For ImageMagick, for Paperclip usability
+  Paperclip.options[:command_path] = '/usr/bin'
   
 end
