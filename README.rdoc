@@ -31,7 +31,9 @@ Dependencies:
 	gem 'rdoc', '~> 4.2.0'
 
 To Do:
-	Fix double confirmation box upon deletion of Pin.
+	Fix double confirmation box upon deletion of Pin. Only Happens in Chrome as far as I can tell?
 	Setup mail utility to send emails (from environment?). Useful for 'Forgot Password' and Email Confirmation/Activation.
+	Add hashtag sorting.
+	Add search capability.
 	Add commenting ability per Pin.
 	Add profile page for each user.
