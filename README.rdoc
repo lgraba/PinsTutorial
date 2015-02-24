@@ -1,28 +1,38 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+README for myapp (PinTutorial) by Logan Graba - February 23, 2015
 
-Things you may want to cover:
+This is a Pinterest Clone based on Mackenzie Child's Youtube Tutorial:
+	https://www.youtube.com/watch?v=abcnfFS_DS8
 
-* Ruby version
+See /doc/app/index.html for RDoc-generated documentation
 
-* System dependencies
+Versions:
+	Ruby 2.2.0p0
+	Rails 4.2.0
+	MySQL 14.14 Distribution 5.5.41
 
-* Configuration
+Dependencies:
+	# HAML https://rubygems.org/gems/haml
+	gem 'haml', '~> 4.0.6'
+	# Bootstrap SASS https://rubygems.org/gems/bootstrap-sass
+	gem 'bootstrap-sass', '~> 3.3.3'
+	# Simple_Form https://rubygems.org/gems/simple_form
+	gem 'simple_form', '~> 3.1.0'
+	# Devise https://rubygems.org/gems/devise
+	gem 'devise', '~> 3.4.1'
+	# Paperclip https://rubygems.org/gems/paperclip
+	gem 'paperclip', '~> 4.2.1'
+	# Masonry-Rails https://rubygems.org/gems/masonry-rails
+	gem 'masonry-rails', '~> 0.2.4'
+	# Acts_as_Votable https://rubygems.org/gems/acts_as_votable
+	gem 'acts_as_votable', '~> 0.10.0'
+	#RDoc https://rubygems.org/gems/rdoc
+	gem 'rdoc', '~> 4.2.0'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To Do:
+	Fix double confirmation box upon deletion of Pin.
+	Only allow the specific owner of a Pin to Edit or Delete that Pin. See Mackenzie Child's 006: Setup User Authentication with Devise Youtube tutorial.
+	Setup mail utility to send emails (from environment?). Useful for 'Forgot Password' and Email Confirmation/Activation.
+	Add commenting ability per Pin.
+	Add profile page for each user.
