@@ -37,3 +37,4 @@ To Do:
 	Add search capability.
 	Add commenting ability per Pin.
 	Add profile page for each user.
+	Pagination for large numbers of Pins on index or search.

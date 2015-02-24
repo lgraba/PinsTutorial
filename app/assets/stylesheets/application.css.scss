@@ -118,6 +118,13 @@ nav {
 	}
 }
 
+// Added for search form
+// FIX LATER FOR SMALLEST VIEWPORT SIZE
+.search {
+  	display: flex;
+  	align-items: center;
+}
+
 textarea {
 	min-height: 250px;
 }

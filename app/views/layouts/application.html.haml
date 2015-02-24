@@ -5,10 +5,13 @@
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 %body
 	%nav.navbar.navbar-default
 		.container
 			.navbar-brand= link_to "Pinnin'", root_path
+			.navbar-brand.search
+				= render 'search'
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right
 					%li= link_to "New Pin", new_pin_path
