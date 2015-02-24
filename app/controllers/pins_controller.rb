@@ -26,6 +26,9 @@ class PinsController < ApplicationController
   end
 
   def edit
+    if @pin.user != current_user
+      redirect_to @pin
+    end
   end
 
   def update
