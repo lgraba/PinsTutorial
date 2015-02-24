@@ -1,5 +1,5 @@
 .form-inline
-  = simple_form_for '', enforce_utf8: false, method: :get do |f|
+  = form_tag pins_path, :method => 'get' do
     .form-group
-      = f.input :search, label: false, required: false, input_html: { placeholder: 'Search...' }
-      = f.button :submit, "Search"
+      = text_field_tag :search, params[:search], placeholder: 'Search...', class: 'form-control'
+      = submit_tag "Search", :name => nil, class: "btn btn-default"
