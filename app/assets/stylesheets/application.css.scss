@@ -18,7 +18,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// SCSS from https://github.com/mackenziechild/pinterest_clone/blob/master/app/assets/stylesheets/application.css.scss
+// Majority of SCSS from https://github.com/mackenziechild/pinterest_clone/blob/master/app/assets/stylesheets/application.css.scss
 body {
 	background: #E9E9E9;
 }
@@ -35,8 +35,13 @@ nav {
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
+				color: #853385;
 			}
 		}
+	}
+	// Added for right-side navbar links, especially when viewport is smallest ("New Pin" wasn't aligned correctly...)
+	.navbar-right {
+		float: right;
 	}
 }
 
