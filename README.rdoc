@@ -35,6 +35,8 @@ Dependencies:
 To Do:
 	Fix double confirmation box upon deletion of Pin. Only Happens in Chrome as far as I can tell?
 	Fix search box render on smallest viewport size (Bootstrap).
+	Fix images not display at 348px on largest viewport size (Masonry).
+	Allow for no image upload on Pins.
 	Setup mail utility to send emails (from environment). Useful for 'Forgot Password' and Email Confirmation/Activation.
 	Add hashtag sorting.
 	Add commenting ability per Pin.
